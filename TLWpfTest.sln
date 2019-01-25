@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TLWpfTest", "TLWpfTest\TLWpfTest.csproj", "{3691EF53-1681-436A-ADB5-0E7573DF51B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationTest", "AnimationTest\AnimationTest.csproj", "{512CF329-7C47-4522-B1FC-E7DBDEB8C1A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncAnimationTest", "FuncAnimationTest\FuncAnimationTest.csproj", "{24BC0F24-7E5B-4BA6-9F51-810E15D5E7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationDrawing", "AnimationDrawing\AnimationDrawing.csproj", "{FEF32C94-A1F2-4454-B5A6-7D77B6E8D398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animation3D", "Animation3D\Animation3D.csproj", "{07B9E85C-3A62-4BDA-B3AE-EABD57D1C639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChaosGame", "ChaosGame\ChaosGame.csproj", "{DCFD1517-777C-4161-B9D5-FABB0910C4A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3691EF53-1681-436A-ADB5-0E7573DF51B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3691EF53-1681-436A-ADB5-0E7573DF51B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3691EF53-1681-436A-ADB5-0E7573DF51B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3691EF53-1681-436A-ADB5-0E7573DF51B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512CF329-7C47-4522-B1FC-E7DBDEB8C1A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512CF329-7C47-4522-B1FC-E7DBDEB8C1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512CF329-7C47-4522-B1FC-E7DBDEB8C1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512CF329-7C47-4522-B1FC-E7DBDEB8C1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24BC0F24-7E5B-4BA6-9F51-810E15D5E7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BC0F24-7E5B-4BA6-9F51-810E15D5E7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BC0F24-7E5B-4BA6-9F51-810E15D5E7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BC0F24-7E5B-4BA6-9F51-810E15D5E7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEF32C94-A1F2-4454-B5A6-7D77B6E8D398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEF32C94-A1F2-4454-B5A6-7D77B6E8D398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEF32C94-A1F2-4454-B5A6-7D77B6E8D398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEF32C94-A1F2-4454-B5A6-7D77B6E8D398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B9E85C-3A62-4BDA-B3AE-EABD57D1C639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B9E85C-3A62-4BDA-B3AE-EABD57D1C639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B9E85C-3A62-4BDA-B3AE-EABD57D1C639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B9E85C-3A62-4BDA-B3AE-EABD57D1C639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFD1517-777C-4161-B9D5-FABB0910C4A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFD1517-777C-4161-B9D5-FABB0910C4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFD1517-777C-4161-B9D5-FABB0910C4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFD1517-777C-4161-B9D5-FABB0910C4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AD1B7DB-B5D1-4B03-B7F4-7F33BFC7C598}
+	EndGlobalSection
+EndGlobal
