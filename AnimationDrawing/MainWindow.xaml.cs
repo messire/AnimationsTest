@@ -49,26 +49,26 @@ namespace AnimationDrawing
 
         private void Window_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
         {
-            CheckNodeLimit(2);
+            CheckNodeLimit(10);
             Point mPos = e.GetPosition(null);
             Dot dot = CreateDot(mPos);
 
             DrawDot(dot);
             AnimateMove(dot);
 
-            if (DrawPanel.Children.Count < 2) return;
+            //if (DrawPanel.Children.Count < 2) return;
 
-            List<Ellipse> dotList = new List<Ellipse>();
-            foreach (var child in DrawPanel.Children)
-            {
-                if (child is Ellipse ellipse) dotList.Add(ellipse);
-            }
+            //List<Ellipse> dotList = new List<Ellipse>();
+            //foreach (var child in DrawPanel.Children)
+            //{
+            //    if (child is Ellipse ellipse) dotList.Add(ellipse);
+            //}
 
-            Point bPoint = new Point(Canvas.GetLeft(dotList[0]), Canvas.GetTop(dotList[0]));
-            Point ePoint = new Point(Canvas.GetLeft(dotList[1]), Canvas.GetTop(dotList[1]));
+            //Point bPoint = new Point(Canvas.GetLeft(dotList[0]), Canvas.GetTop(dotList[0]));
+            //Point ePoint = new Point(Canvas.GetLeft(dotList[1]), Canvas.GetTop(dotList[1]));
 
-            Line line = CreateLine(bPoint, ePoint);
-            DrawLine(line);
+            //Line line = CreateLine(bPoint, ePoint);
+            //DrawLine(line);
             
         }
 

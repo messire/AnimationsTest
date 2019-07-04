@@ -40,14 +40,14 @@ namespace ChaosGame
         private int divider { get; set; }
 
         private List<Dot> _pointList { get; set; }
-        private readonly int _dotSize = 2;
+        private readonly int _dotSize = 5;
         private readonly Random _rnd;
 
         #region chaos variables
 
-        private int _minVertex = 3;
-        private int _maxVertex = 6;
-        private int _iterationCount = 1000;
+        private int _minVertex = 8;
+        private int _maxVertex = 16;
+        private int _iterationCount = 10000;
 
         #endregion
 
